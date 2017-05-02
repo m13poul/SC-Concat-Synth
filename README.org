@@ -1,0 +1,7 @@
+Implement concatenative synthesis synth in SuperCollider, bottom-up.
+
+Play back arbitrary segments from a sample buffer at arbitrary rates.
+
+The implementation uses BufRd, and ar envelope for defining the linear curve driving the Phaser.  The envelope is sent via OSC.  The ar envelope takes the place of Phasor.
+
+
